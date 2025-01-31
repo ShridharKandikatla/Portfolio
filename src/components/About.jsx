@@ -49,7 +49,7 @@ return (
       </motion.div>
     </Grid>
     <Grid item xs={12} md>
-      <Typography variant="h4" py={2} sx={{ fontWeight: 600, color: 'primary.main' }} paragraph>
+      <Typography variant="h5" py={2} sx={{ fontWeight: 600, color: 'primary.main', textAlign: isMobile ? 'center': 'left'  }} paragraph>
         Full Stack Web Developer
       </Typography>
       <Typography paragraph>

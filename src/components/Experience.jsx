@@ -87,7 +87,7 @@ const Experience = () => {
                       lineHeight: 1.5
                     }}
                   >
-                    • {text}
+                    ■ {text}
                   </Typography>
                 </Box>
               ))}
