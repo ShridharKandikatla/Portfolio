@@ -4,6 +4,7 @@ import { ThemeProvider, CssBaseline, Container, Box } from '@mui/material';
 
 import About from './components/About';
 import Contact from './components/Contact';
+import Education from './components/Education';
 import Experience from './components/Experience';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -24,6 +25,7 @@ function App() {
           <About />
           <Skills />
           <Experience />
+          <Education/>
           <Projects />
           <Contact />
         </Box>

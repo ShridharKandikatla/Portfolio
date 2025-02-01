@@ -3,7 +3,7 @@ import { Brightness4, Brightness7 } from '@mui/icons-material';
 
 // eslint-disable-next-line react/prop-types
 const Header = ({ darkMode, setDarkMode }) => (
-  <AppBar position="static">
+  <AppBar position="sticky">
     <Toolbar>
       <Typography variant="h6" sx={{ flexGrow: 1 }}>
         Shridhar Kandikatla

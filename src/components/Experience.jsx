@@ -6,7 +6,7 @@ import {
   TimelineContent,
   TimelineConnector,
 } from "@mui/lab";
-import { Typography, Box, useMediaQuery } from "@mui/material";
+import { Typography, Box, useMediaQuery, Chip } from "@mui/material";
 import { useTheme } from "@emotion/react";
 
 const Experience = () => {
@@ -68,6 +68,8 @@ const Experience = () => {
             }}>
               <Typography variant="h6" component="div">
                 Software Developer - SumaSoft
+                <Chip color="primary"
+              variant="outlined" label={"Full-Time"} sx={{ mx: 2 }} />
               </Typography>
               <Typography variant="subtitle2" color="text.secondary" gutterBottom>
                 May 2024 – December 2024 | Pune

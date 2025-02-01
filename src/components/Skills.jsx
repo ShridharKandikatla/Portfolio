@@ -16,6 +16,10 @@ const skillsData = [
   { 
     category: 'Tools', 
     skills: ['Git', 'GitHub', 'Docker', 'AWS EC2', 'Nginx', 'PM2', 'Webpack', 'Vite']
+  },
+  {
+    category: 'Soft Skills',
+    skills: ['Communication', 'Problem Solving', 'Teamwork', 'Leadership', 'Time Management', 'Adaptability']
   }
 ];
 
